@@ -1,0 +1,35 @@
+body {
+    background: linear-gradient(-45deg, #67B26F, #4ca2cd);
+}
+
+.item {
+    max-width: 30%;
+    margin: 2rem;
+    background: rgba(255, 255, 255, .4);
+}
+
+.item-img {
+    max-width: 200px;
+    margin: 0 1rem 0 0;
+}
+
+.container {
+    width: 90vw;
+    margin: auto;
+}
+
+/* Flex-box */
+
+.container {
+    border: 5px solid orange;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.item {
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+}
